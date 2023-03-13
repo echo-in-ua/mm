@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Jura|PT+Sans+Narrow');
+
+body text, table {
+	font-family: 'Jura', sans-serif;
+}
+
+table {
+  font-size: 0.7em;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.widget {
+  height: 100vh;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress-bar {
+  fill: green;
+
+}
+
+.progress-bar-bg {
+  fill: #ddd;
+}
+
+.progress-label {
+  fill: #aaa;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+#state-table_length, #state-table_filter, #state-table_info, #state-table_paginate {
+  font-size: 0.8em;
+}

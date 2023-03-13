@@ -1,0 +1,1 @@
+docker run --name mm-node --rm -v "$PWD":/app -w /app node:16-alpine yarn build
